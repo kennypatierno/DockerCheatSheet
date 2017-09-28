@@ -128,6 +128,12 @@ docker container rename infinite infinity
 docker container rm infinite
 ```
 
+## Remove all Stopped Containers
+
+```
+docker container prune
+```
+
 ## Updating a Container
 
 ```
@@ -298,6 +304,12 @@ curl example.com/remote/Dockerfile | docker build -f - .
 
 ```
 docker image rm nginx
+```
+
+## Remove all Unused Images
+
+```
+docker image prune
 ```
 
 ## Loading a Tarred Repository from a File or the Standard Input Stream
